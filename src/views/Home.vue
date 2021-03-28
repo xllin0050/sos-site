@@ -9,11 +9,12 @@
 import Banner from '@/components/Banner'
 import PhotoShow from '@/components/PhotoShow'
 
+
 export default {
   name: 'Home',
   components: {
     Banner,
-    PhotoShow
+    PhotoShow,
   }
 }
 </script>
