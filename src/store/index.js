@@ -2,9 +2,7 @@ import { createStore } from 'vuex'
 
 export default createStore({
   state:{
-
-      items: []
-
+    items: []
   },
   mutations: {
     addItem(state, item){

@@ -3,7 +3,6 @@
       <div class="text-2xl font-bold pl-3">SOS</div>
       <div class="font-bold">
         <router-link :to="{ name : 'Home' }">Home</router-link> |
-        <router-link :to="{ name: 'List' }">List</router-link> |
         <router-link to="/about">About</router-link>
       </div>
     </nav>

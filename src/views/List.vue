@@ -1,7 +1,6 @@
 <template>
   <h1>Your List</h1>
   <p>
-    {{ show.item.date }}
   </p>
 
 
@@ -16,13 +15,7 @@ export default {
 
     }
   },
-  computed:{
-   
-    show(){
-      return store.state.items
-    }
-    
-  }
+  computed:{}
 }
 </script>
 

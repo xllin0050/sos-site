@@ -6,7 +6,7 @@
           <img :src=data.url alt="" >
         </div>
         <div class="text-2xl text-center py-5">{{data.title}}</div>
-        <div v-if="isShow===index" @click="addToList(data,index)" class="addBtn text-2xl text-yellow-100 bg-red-800 p-3 rounded-md absolute top-1/2 transform -translate-y-1/2 right-1/2 translate-x-1/2">Put in list
+        <div v-if="isShow===index" class="text-2xl text-yellow-100 bg-red-800 p-3 rounded-md absolute top-1/2 transform -translate-y-1/2 right-1/2 translate-x-1/2">Put in list
         </div>
       </div>
     </div>
@@ -33,17 +33,6 @@ export default {
       .catch(err => console.log(err.message))
   },
   methods:{
-    addToList(data,index){
-    store.commit({
-      type:'addItem', 
-      item:{
-        index:index, 
-        date:data.date, 
-        title:data.title, 
-        url:data.url
-        }
-        })
-    }
   }
 }
 </script>
