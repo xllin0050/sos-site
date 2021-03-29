@@ -5,9 +5,6 @@ export default createStore({
     items: []
   },
   mutations: {
-    addItem(state, item){
-      state.items = item
-    }
   }
 })
 

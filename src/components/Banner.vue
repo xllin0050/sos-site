@@ -4,9 +4,9 @@
         <source src="@/assets/banner/space.mp4">
       </video>
     
-    <header class="header">
+    <header class="header ">
       <h1 class="text-white flex flex-col md:flex-row">
-        <span class="uppercase font-bold px-2">sell</span>
+        <span class="uppercase font-bold px-2">see</span>
         <span class="uppercase font-bold px-2">outer</span>
         <span class="uppercase font-bold px-2">space</span>
       </h1>

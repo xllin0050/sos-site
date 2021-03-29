@@ -1,7 +1,11 @@
 <template>
   <div class="home">
     <Banner />
-    <PhotoShow />
+    <PhotoShow :key="key"/>
+    <div @click="reLoad" 
+      class="inline-block text-xl text-yellow-200 bg-gray-700 p-5 mt-2 rounded-sm cursor-pointer">
+      more and more
+    </div>
   </div>
 </template>
 
@@ -15,6 +19,19 @@ export default {
   components: {
     Banner,
     PhotoShow,
+  },
+  data(){
+    return{
+      key:0
+    }
+  },
+  methods:{
+    reLoad(){
+      this.key +=1
+    }
   }
 }
 </script>
+<style scoped>
+
+</style>

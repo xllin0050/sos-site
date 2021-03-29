@@ -2,8 +2,8 @@
     <nav id="nav" class="nav flex justify-between items-center px-3">
       <div class="text-2xl font-bold pl-3">SOS</div>
       <div class="font-bold">
-        <router-link :to="{ name : 'Home' }">Home</router-link> |
-        <router-link to="/about">About</router-link>
+        <!-- <router-link :to="{ name : 'Home' }">Home</router-link> | -->
+        <!-- <router-link to="/about">About</router-link> -->
       </div>
     </nav>
 
@@ -25,10 +25,12 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  min-height: 100vh;
 }
 
   body{
-    background-color: #414141;
+    
+    background-color: #1b1b1b;
   }
 
  .nav{
@@ -41,6 +43,6 @@
  }
 
  footer ul{
-   padding-top:60px;
+   padding-top:40px;
  }
 </style>
