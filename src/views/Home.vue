@@ -26,6 +26,7 @@ export default {
     }
   },
   methods:{
+    //重整照片區塊
     reLoad(){
       this.key +=1
     }
